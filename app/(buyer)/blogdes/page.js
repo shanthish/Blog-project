@@ -2,7 +2,7 @@
 import { useSearchParams } from "next/navigation";
 import Image from "next/image";
 
-const BlogDescription = () => {
+const blogdes = () => {
   const searchParams=useSearchParams();
   const id=searchParams.get("id");
   const title=searchParams.get("title");
@@ -39,4 +39,4 @@ const BlogDescription = () => {
   );
 };
 
-export default BlogDescription;
+export default blogdes;

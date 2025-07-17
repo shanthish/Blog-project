@@ -18,28 +18,28 @@ const blogdesseller = () => {
                 <div className="right">
                     <h1>Description</h1>
                     <p>
-                        "Para movies" likely refers to movies available on Paramount+, a streaming
+                        Para movies likely refers to movies available on Paramount+, a streaming
                         service owned by Paramount Pictures. It offers a wide range of films,
                         including theatrical releases, originals, and classic titles. Paramount+
                         also allows for downloads of some movies and shows for offline viewing
                         according to Paramount Plus.
                     </p>
                     <p>
-                        "Para movies" likely refers to movies available on Paramount+, a streaming
+                        Para movies likely refers to movies available on Paramount+, a streaming
                         service owned by Paramount Pictures. It offers a wide range of films,
                         including theatrical releases, originals, and classic titles. Paramount+
                         also allows for downloads of some movies and shows for offline viewing
                         according to Paramount Plus.
                     </p>
                     <p>
-                        "Para movies" likely refers to movies available on Paramount+, a streaming
+                        Para movies likely refers to movies available on Paramount+, a streaming
                         service owned by Paramount Pictures. It offers a wide range of films,
                         including theatrical releases, originals, and classic titles. Paramount+
                         also allows for downloads of some movies and shows for offline viewing
                         according to Paramount Plus.
                     </p>
                     <p>
-                        "Para movies" likely refers to movies available on Paramount+, a streaming
+                        Para movies likely refers to movies available on Paramount+, a streaming
                         service owned by Paramount Pictures. It offers a wide range of films,
                         including theatrical releases, originals, and classic titles. Paramount+
                         also allows for downloads of some movies and shows for offline viewing
