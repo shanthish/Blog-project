@@ -24,7 +24,7 @@ const BlogDes = () => {
         </p>
         <p>
           The platform also features exclusive originals, catering to diverse genres including action, drama, comedy, 
-          sci-fi, and documentaries. Whether you're revisiting old favorites or exploring new stories, there's something for everyone.
+          sci-fi, and documentaries. Whether youre revisiting old favorites or exploring new stories, theres something for everyone.
         </p>
         <p>
           One standout feature of Paramount+ is its offline viewing support. Subscribers can download select movies 
