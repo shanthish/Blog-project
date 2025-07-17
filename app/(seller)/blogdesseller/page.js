@@ -1,7 +1,7 @@
 "use client";
 import { useSearchParams } from "next/navigation";
 
-const blogdesseller = () => {
+const BlogDesseller = () => {
     const searchParams = useSearchParams();
     const id = searchParams.get("id");
     const title = searchParams.get("title");
@@ -51,4 +51,4 @@ const blogdesseller = () => {
     );
 };
 
-export default blogdesseller;
+export default BlogDesseller;
