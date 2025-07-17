@@ -12,8 +12,8 @@ const BlogDes = () => {
     <div className="blogid container">
       <div className="blogid-left">
         <Image
-          src={img}
-          alt={title}
+          src={img || "/fallback.jpg"}
+          alt={title || "Blog Image"}
           className="blogidimg1"
           width={600}
           height={400}
