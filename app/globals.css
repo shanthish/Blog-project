@@ -1,0 +1,315 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(18, 18, 18);
+  color: rgb(245, 245, 245);
+}
+
+
+
+.navbarbuy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: rgb(31, 31, 31);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+  position: sticky;
+  top: 0;
+}
+
+
+
+.navelements {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  text-decoration: none;
+}
+
+
+
+.navelements p {
+  cursor: pointer;
+  font-weight: 500;
+  color: rgb(245, 245, 245);
+  text-decoration: none;
+}
+
+
+
+.navelements p:hover {
+  color: rgb(4, 192, 217);
+}
+
+
+
+.logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+
+
+form {
+  border: 1px solid rgb(51, 51, 51);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  width: 30vw;
+  height: 60vh;
+  padding: 30px;
+  background-color: rgb(30, 30, 30);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+
+
+form input {
+  height: 45px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgb(68, 68, 68);
+  background-color: rgb(42, 42, 42);
+  color: rgb(245, 245, 245);
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+
+
+form input:hover {
+  border-color: rgb(0, 188, 212);
+}
+
+
+
+form button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(0, 188, 212);
+  color: rgb(18, 18, 18);
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+
+form button:hover {
+  background-color: rgb(0, 151, 167);
+  transform: scale(1.05);
+}
+
+
+.blogpage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  background-color: rgb(24, 24, 24);
+}
+
+
+
+.blogimg {
+  height: 30vh;
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+
+
+.blogimg:hover {
+  transform: scale(1.03);
+}
+
+
+
+.blogidimg1 {
+  height: 40vh;
+  width: 40vh;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+
+
+.createblog {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+
+
+.container {
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: rgb(30, 30, 30);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  overflow: hidden;
+  color: rgb(238, 238, 238);
+}
+
+table th {
+  background-color: rgb(44, 44, 44);
+  color: rgb(221, 221, 221);
+  font-weight: 600;
+}
+
+table th, table td {
+  padding: 14px;
+  border: 1px solid rgb(51, 51, 51);
+  text-align: center;
+  font-size: 15px;
+}
+
+.table-img {
+  height: 80px;
+  width: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.table-img:hover {
+  transform: scale(1.05);
+}
+
+.pagination {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: rgb(0, 188, 212);
+  border: none;
+  border-radius: 8px;
+  color: rgb(18, 18, 18);
+  cursor: pointer;
+}
+
+
+.pagination button:hover:not(:disabled) {
+  background-color: rgb(0, 139, 163);
+}
+
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  background-color: rgb(51, 51, 51);
+  color: rgb(119, 119, 119);
+}
+
+
+
+.blogid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 40px;
+  background-color: rgb(24, 24, 24);
+  color: rgb(245, 245, 245);
+  border-radius: 15px;
+}
+
+
+
+.blogid-left {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+
+
+.blogidimg1 {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+
+.blog-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: rgb(0, 188, 212);
+}
+
+
+.blog-id {
+  font-size: 16px;
+  color: rgb(187, 187, 187);
+}
+
+
+.blog-heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: rgb(245, 245, 245);
+}
+
+
+
+.blogid-right p {
+  font-size: 16px;
+  color: rgb(204, 204, 204);
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+
+.blogcards{
+  width:25%;
+}
+
+
+
+
+.linktag{
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+}
+
